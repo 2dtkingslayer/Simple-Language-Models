@@ -20,3 +20,7 @@ Below are some general stages for training a language model:
 - In **Part 1**, the requirement is to build a neural network named **Multi Layered Perception (MLP)** using `JAX Autodiff`. This model follows a concept of updating the parameters by calculating their gradients. The `Autodiff` is calculated by the chain rule when I step-by-step dot-mutiplied the matrices of weights and biases.
 
 - In **Part 2**, the requirement is to build a **Bigram Language Model**. Again, as mentioned, the concept is easy to understand but very challenging to implement. **Bigram Language Model** is counting the frequency of **2** adjacent characters (or words) in the corpus then calculate the probability distribution. After that, we are able to figure out other characters (or words) to create more of them.
+
+## Bi-character Frequency
+
+![img2](img/img2bilettersfreq.png)
